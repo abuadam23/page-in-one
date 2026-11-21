@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Page in One</title>
+<style>
+  body { margin: 0; background: #0c0a16; color: #e9e5ff; font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; }
+  h1 { font-size: 32px; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 19px; margin: 36px 0 8px; color: #fff; }
+  .date { color: #8a83ab; font-size: 14px; margin-bottom: 28px; }
+  .promise { padding: 16px 18px; border: 1px solid #4d6b1f; border-radius: 12px; background: #141a0d; }
+  .promise strong { color: #c6f36b; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 14px; color: #c9c0ff; }
+  a { color: #9483ff; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy — Page in One</h1>
+  <p class="date">Effective date: 20 November 2026</p>
+
+  <p class="promise"><strong>In short:</strong> Page in One works entirely on your device.
+  Your screenshots, the pages you capture and your settings never leave your computer.
+  We have no servers, no accounts, no analytics and no ads.</p>
+
+  <h2>What the extension does</h2>
+  <p>Page in One captures screenshots of web pages you choose (full page, visible area,
+  a region or a freeform shape), lets you annotate and blur them, and exports them as
+  PNG, JPEG or PDF files or copies them to your clipboard. All processing happens
+  locally in your browser.</p>
+
+  <h2>Information stored on your device</h2>
+  <ul>
+    <li><strong>Captures</strong> — the finished image, a small thumbnail, and the title and
+      address of the captured page, stored in the extension's private browser storage
+      (IndexedDB) so they appear in your on-device Library. Temporary scroll segments are
+      deleted as soon as a capture is assembled.</li>
+    <li><strong>Settings</strong> — your preferences (image sharpness, PDF options, file-name
+      pattern, retention period and similar) in <code>chrome.storage.local</code>.</li>
+    <li><strong>Capture progress</strong> — the status of a capture in progress, in
+      <code>chrome.storage.session</code>, cleared when the browser closes.</li>
+    <li><strong>Local counters</strong> — how many captures you have made and whether you have
+      seen the welcome page or rating card, in <code>chrome.storage.local</code>.</li>
+  </ul>
+  <p>None of this information is transmitted to us or to anyone else.</p>
+
+  <h2>Information we collect</h2>
+  <p>None. The extension does not collect, sell, transfer or share browsing history, page
+  content, screenshots, personal information, or usage data. It makes no network requests
+  to any server operated by us, and it contains no advertising, analytics, tracking pixels
+  or remotely hosted code. PDF files are created locally with the bundled, open-source
+  jsPDF library.</p>
+
+  <h2>How long data is kept, and how to delete it</h2>
+  <ul>
+    <li>Finished captures are kept for 30 days by default. You can choose 1, 7, 30 or 90
+      days, or "until I delete them", in Settings.</li>
+    <li>You can delete any single capture from the Library, or everything with
+      <em>Settings → Delete all captures</em>.</li>
+    <li>Uninstalling the extension removes all of its stored data.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <p>The extension asks only for the browser permissions it needs to capture the page you
+  choose (reading and scrolling that page, taking screenshots of the visible tab), to
+  assemble images (an offscreen document), to save files you export (downloads), to copy
+  images when you click Copy (clipboard), and to remember your settings and Library
+  (storage). These permissions are used only for those purposes.</p>
+
+  <h2>Children</h2>
+  <p>The extension is a general-purpose productivity tool and does not knowingly collect
+  information from anyone, including children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be published at this address with a
+  new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or requests: <a href="mailto:support@auralis24.com">support@auralis24.com</a></p>
+</main>
+</body>
+</html>
